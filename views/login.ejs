@@ -1,0 +1,19 @@
+<% include partials/header %>
+<h1>Login Page</h1>
+
+<p>
+<form action="/login" method="POST">
+    <input type="text" name="username" placeholder="username">
+    <input type="password" name="password" placeholder="password">
+    <button>Login</button>
+</form>
+</p>
+
+<p>
+<a class="btn btn-primary" href="/register">Sign Up</a>
+<a class="btn btn-success" href="/login">Login</a>
+</p>
+
+<p><a class="btn btn-warning btn-lg" href="/">Back to Index</a></p>
+
+<% include partials/footer %>

@@ -1,0 +1,18 @@
+<% include partials/header %>
+<h1>Let's create your account!</h1>
+
+<p>
+<form action="/register" method="POST">
+    <input type="text" name="username" placeholder="username">
+    <input type="password" name="password" placeholder="password">
+    <button>Submit</button>
+</form>
+</p>
+
+<p>
+<a class="btn btn-primary" href="/register">Sign Up</a>
+<a class="btn btn-success" href="/login">Login</a>
+</p>
+
+<p><a class="btn btn-warning btn-lg" href="/">Back to Index</a></p>
+<% include partials/footer %>
